@@ -1,0 +1,11 @@
+Source: kano-fonts
+Maintainer: Team Kano <dev@kano.me>
+Section: x11
+Priority: optional
+Standards-Version: 3.9.4
+Build-Depends: debhelper (>=9.0.0)
+
+Package: kano-fonts
+Architecture: all
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Font families used in Kanux
