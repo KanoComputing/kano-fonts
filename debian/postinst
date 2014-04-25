@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# postinst
+#
+# Copyright (C) 2014 Kano Computing Ltd.
+# License: http://www.gnu.org/licenses/gpl-2.0.txt GNU General Public License v2
+#
+
+case "$1" in
+    configure)
+
+        # Update kano installed fonts information for the X server
+        mkfontdir /usr/share/fonts/kano
+        mkfontscale /usr/share/fonts/kano
+        fc-cache
+
+        ;;
+
+esac
+
+#DEBHELPER#
+
+exit 0
