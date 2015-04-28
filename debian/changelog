@@ -1,3 +1,9 @@
+kano-fonts (2.0-1) unstable; urgency=low
+
+  * Moved Bariol into a subdirectory
+
+ -- Team Kano <dev@kano.me>  Tue, 28 Jun 2014 10:56:00 +0100
+
 kano-fonts (1.1-1) unstable; urgency=low
 
   * Prerelease review
