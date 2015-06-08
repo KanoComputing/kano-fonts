@@ -7,7 +7,8 @@ Build-Depends: debhelper (>=9.0.0)
 
 Package: kano-fonts
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, fonts-arphic-ukai, fonts-arphic-uming,
+ fonts-ipafont-mincho, fonts-ipafont-gothic, fonts-unfonts-core,
 Replaces: kano-desktop (<< 1.0-60.20140423)
 Breaks: kano-desktop (<< 1.0-60.20140423)
 Description: Font families used in Kanux
